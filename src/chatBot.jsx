@@ -41,7 +41,7 @@ const ChatBot = () => {
         <div style={styles.headerContent}>
           <img src="/mt.svg" alt="Logo" style={styles.logoImage} />
           <a
-            href="https://wecare-website-1.onrender.com/"
+            href="https://wecare-ai.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none", color: "inherit" }}
