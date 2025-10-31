@@ -9,7 +9,7 @@ const apiKey = process.env.GEMINI_API_KEY;
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: "https://wecare-ai.vercel.app",
     methods: ["GET", "POST"],
     credentials: true,
   })
@@ -88,3 +88,4 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}✅`);
 });
+
