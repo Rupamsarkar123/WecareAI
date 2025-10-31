@@ -17,7 +17,7 @@ const ChatBot = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post("http://localhost:5000/chat", {
+      const response = await axios.post("https://wecareai.onrender.com/chat", {
         message: input,
       });
 
@@ -228,3 +228,4 @@ const styles = {
 };
 
 export default ChatBot;
+
